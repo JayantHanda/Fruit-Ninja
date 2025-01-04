@@ -1,3 +1,7 @@
+<h1>Fruit Ninja</h1>h1
+
+Hosted at : https://jayanthanda.github.io/Fruit-Ninja/
+
 This is my WOC 7.0 project "Fruit Ninja". 
 
 Above are various folders that contain the various html pages that all together make the game.
