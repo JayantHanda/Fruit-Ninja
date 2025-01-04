@@ -1,4 +1,4 @@
-<h1>Fruit Ninja</h1>h1
+<h1>Fruit Ninja</h1>
 
 Hosted at : https://jayanthanda.github.io/Fruit-Ninja/
 
