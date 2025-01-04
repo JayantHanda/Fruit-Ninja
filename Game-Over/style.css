@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+button {
+    background-image: url(images/button-bg.jpg);
+    background-color: #412722;
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 60px;
+    font-family: "Pixelify Sans", serif;
+    position: absolute;
+  width: 29.8vw;
+  height: 13.7vh;
+  right: calc(35.1vw);
+}
+
+#retry {
+    top: 45vh;
+}
+
+#home {
+    top: 60vh;
+}
+
+img {
+    height: 20.54vh;
+    position: absolute;
+    right: 21.85vw;
+    top: 13.69vh;
+}

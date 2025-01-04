@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+button {
+    background-image: url(images/button-bg.jpg);
+}
+
+#simplesword {
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 40px;
+    font-family: "Pixelify Sans", serif;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 13.7vh;
+    width: 26.04vw;
+}
+
+#supersword {
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 40px;
+    font-family: "Pixelify Sans", serif;
+    position: absolute;
+    left: 75%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 13.7vh;
+    width: 26.04vw;
+}

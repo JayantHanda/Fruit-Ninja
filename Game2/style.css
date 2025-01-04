@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    user-select: none;
+}
+
+canvas {
+    display: block;
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+
+#score {
+    height: 50px;
+    width: 50px;
+    /* background-image: url(images/button-bg.jpg); */
+    color: #F5F3BB;
+    /* border: solid 3px #DFA06E; */
+    position: absolute;
+    top: 0px;
+    right: 718px;
+    font-size: 2.5rem;
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+}
+
+#lives {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+#life3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#life2 {
+    position: absolute;
+    top: 0px;
+    right: 32px;
+}
+
+#life1 {
+    position: absolute;
+    top: 0px;
+    right: 64px;
+}
+
+#lifegone1 {
+    position: absolute;
+    top: 0px;
+    right: 64px;
+    display: none;
+}
+
+#lifegone2 {
+    position: absolute;
+    top: 0px;
+    right: 32px;
+    display: none;
+}
+
+#lifegone3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+
+#loadingscreen {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #F5F3BB;
+    display: none;
+    width: 20vw;
+    font-size: 5rem;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background-image: url(images/home-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#presstostart {
+    background-image: url(images/button-bg.jpg);
+    background-color: #412722;
+    display: block;
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 60px;
+    font-family: "Pixelify Sans", serif;
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 13.7vh;
+    width: 26.04vw;
+}
+
+#leaderboard {
+    background-image: url(images/button-bg.jpg);
+    background-color: #412722;
+    display: block;
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 30px;
+    font-family: "Pixelify Sans", serif;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    height: 7vh;
+}

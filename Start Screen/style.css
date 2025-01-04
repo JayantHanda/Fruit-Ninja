@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+body {
+    background-image: url(images/home-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    /* height: 700px;
+    position: absolute;
+    left: 418px;
+    top: -200px; */
+
+    position: absolute;
+  width: 45.5vw; /* 700px relative to 1536px */
+  height: 45.5vw; /* Keep it square using width ratio */
+  left: calc(27.2vw); /* 418px relative to 1536px */
+  top: calc(-13.02vh); /* -200px relative to 730px */
+}
+
+#presstostart {
+    background-image: url(images/button-bg.jpg);
+    background-color: #412722;
+    /* display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center; */
+    border: solid 3px #DFA06E;
+    color: #F5F3BB;
+    font-size: 60px;
+    font-family: "Pixelify Sans", serif;
+    /* position: absolute;
+    right: 539.335px;
+    top: 500px;
+    height: 100px; */
+    position: absolute;
+  width: 29.8vw; /* 457.33px relative to 1536px */
+  height: 13.7vh; /* 100px relative to 730px */
+  right: calc(35.1vw); /* 539.335px relative to 1536px */
+  top: calc(68.5vh); /* 500px relative to 730px */
+}
