@@ -95,9 +95,9 @@ var home = document.getElementById("home");
 var retry = document.getElementById("retry");
 
 home.addEventListener("click", function () {
-    window.location.href = "/Home-Screen/index.html";
+    window.location.href = "../Home-Screen/index.html";
 })
 
 retry.addEventListener("click", function () {
-    window.location.href = "/SwordSelect/index.html";
+    window.location.href = "../SwordSelect/index.html";
 })

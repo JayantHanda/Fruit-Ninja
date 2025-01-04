@@ -90,11 +90,11 @@ animate();
 var button = document.getElementById('presstostart');
 
 button.addEventListener("click",function(){
-    window.location.href = "/SwordSelect/index.html";
+    window.location.href = "../SwordSelect/index.html";
 })
 
 var gotoleaderboard = document.getElementById('leaderboard');
 
 gotoleaderboard.addEventListener("click", function () {
-    window.location.href = "/Leaderboard/index.html"
+    window.location.href = "../Leaderboard/index.html"
 })

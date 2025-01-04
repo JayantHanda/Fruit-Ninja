@@ -118,7 +118,7 @@ submit.addEventListener("click", function(event) {
   .then((userCredential) => {
     // Signed up 
     const user = userCredential.user;
-    window.location.href = "/Home-Screen/index.html"
+    window.location.href = "../Home-Screen/index.html"
     // ...
   })
   .catch((error) => {

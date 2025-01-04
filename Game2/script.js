@@ -329,7 +329,7 @@ async function animate() {
         await uploadConstants();
         document.getElementById("lifegone1").style.display = "inline";
         document.getElementById("life1").style.display = "none";
-        location.replace("/Game-Over/index.html");
+        location.replace("../Game-Over/index.html");
     }
 }
 

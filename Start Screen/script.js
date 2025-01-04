@@ -90,5 +90,5 @@ animate();
 var buttonclick = document.getElementById('presstostart')
 
 buttonclick.addEventListener("click",function(){
-    window.location.href = '/Sign-Up/index.html';
+    window.location.href = '../Sign-Up/index.html';
 })

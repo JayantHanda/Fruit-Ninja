@@ -2,11 +2,11 @@ var simpleswordclick = document.getElementById('simplesword');
 var supersword = document.getElementById('supersword');
 
 simpleswordclick.addEventListener("click", function(){
-    window.location.href = "/Game1/index.html";
+    window.location.href = ".../Game1/index.html";
 })
 
 supersword.addEventListener("click", function(){
-    window.location.href = "/Game2/index.html";
+    window.location.href = "../Game2/index.html";
 })
 
 var canvas = document.querySelector("canvas");

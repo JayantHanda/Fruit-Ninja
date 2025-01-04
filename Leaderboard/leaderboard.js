@@ -62,7 +62,7 @@ displayLeaderboard();
 var back = document.getElementById('back');
 
 back.addEventListener('click', function(){
-  window.location.href = "/Home-Screen/index.html";
+  window.location.href = "../Home-Screen/index.html";
 })
 
 var canvas = document.querySelector("canvas");
